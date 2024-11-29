@@ -1,10 +1,9 @@
-import * as React from "react";
 import { createFileRoute } from "@tanstack/react-router";
-import { Home } from "../components/Home";
+import { Menu } from "../pages/Menu.page";
 export const Route = createFileRoute("/menu")({
   component: RouteComponent,
 });
 
 function RouteComponent() {
-  return <Home />;
+  return <Menu />;
 }

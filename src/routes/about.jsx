@@ -1,10 +1,10 @@
-import { Container } from '@mantine/core'
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute } from "@tanstack/react-router";
+import { About } from "../pages/About.page";
 
-export const Route = createFileRoute('/about')({
+export const Route = createFileRoute("/about")({
   component: RouteComponent,
-})
+});
 
 function RouteComponent() {
-  return <Container bg="var(--mantine-primary-color-0)"></Container>
+  return <About />;
 }
