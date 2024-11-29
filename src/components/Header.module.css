@@ -26,7 +26,7 @@
     background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
   }
 
-  [data-mantine-color-scheme] &[data-active] {
+  &[data-status='active'] {
     background-color: var(--mantine-primary-color-0);
     color: var(--mantine-color-white);
   }
