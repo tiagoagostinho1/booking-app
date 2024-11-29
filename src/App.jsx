@@ -1,8 +1,3 @@
-//import "./App.css";
-import { Header } from "./components/Header";
-import { Main } from "./components/Main";
-import { Footer } from "./components/Footer";
-
 // Import styles of packages that you've installed.
 // All packages except `@mantine/hooks` require styles imports
 import "@mantine/core/styles.css";
